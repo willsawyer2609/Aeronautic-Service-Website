@@ -1,0 +1,121 @@
+* {
+    font-family: 'Baloo Bhaina', cursive;
+    color: rgb(85, 85, 85);
+}
+
+nav {
+    background-color: rgb(85, 85, 85);
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.7em;
+    display: inline-block;
+    list-style-type: none;
+    color: rgb(0, 144, 215);
+    width: 19%;
+}
+
+nav a:hover {
+    background-color: rgb(77, 77, 77);
+}
+
+.bottom {
+    background-color: rgb(0, 144, 215);
+    height: 35px;
+}
+
+.bottom a {
+    color: rgb(85, 85, 85);
+    display: inline-block;
+    list-style-type: none;
+    font-size: 1.2em;
+}
+
+.bottom a:hover {
+    background-color: rgb(0, 153, 230);
+}
+
+.planes {
+    color: rgb(85, 85, 85);
+}
+
+.planes table {
+    width: 100%;
+}
+
+.planes td img {
+    width: 100%;
+    height: 100%;
+}
+
+.aircrafts td {
+    width: 15%;
+    height: 130px;
+}
+
+.planes th {
+    text-align: center;
+    font-size: 40px;
+}
+
+.planes .names td {
+    height: auto;
+    font-size: 2em;
+}
+
+.planes .tablegap {
+    height: 20px;
+}
+
+.wasimg {
+    width: 100%;
+}
+
+.aircraftinfo > h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+.flightschools tbody th {
+    font-size: 2.5em;
+    line-height: 1.8em;
+    text-align: center;
+}
+
+.flightschools tbody td {
+    height: 100px;
+    width: 25%;
+}
+.flightschools tbody td img {
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.title {
+    font-size: 5em;
+}
+
+.white {
+    background-color: #999999;
+}
+
+.right {
+    float: right;
+}
+
+.welcome > h1, h2, h3, h4, h5, h6 {
+    color: black;
+}
+
+.welcome a {
+    text-decoration: none;
+}
+
+.flightschools {
+    width: 100%;
+}
